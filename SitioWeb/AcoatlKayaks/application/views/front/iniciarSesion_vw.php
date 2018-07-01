@@ -33,6 +33,7 @@
             				<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
             				<input type="password" name="contraseña" class="form-control" placeholder="Contraseña" required>
           				</div>
+						  <input type="hidden" name="privilegios" class="form-control" value="1">
          				 <button class="btn btn-success btn-lg btn-block" type="submit" value="">Iniciar Sesión</button>
           				<a type="button" class="btn btn-info btn-lg btn-block" href="<?=base_url();?>index.php/control/reg">Registrarme</a>
       				</div>
