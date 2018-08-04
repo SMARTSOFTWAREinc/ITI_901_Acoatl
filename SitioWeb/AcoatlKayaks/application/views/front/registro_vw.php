@@ -43,6 +43,12 @@
 					<div align="center" class="container">   
 						<div class="col-xs-12 col-sm-4"></div>
  							<div class="col-xs-12 col-sm-4 form form_regis" >
+							<?php
+                  			$error_msg=$this->session->flashdata('error_msg');
+                  				if($error_msg){
+                    				echo $error_msg;
+                  				}
+                   			?>
 							 <?=validation_errors();?>
             					<form action="<?=base_url().'index.php/Usuario/registro';?>" method="POST" class="login-form">
       								<div class="log">

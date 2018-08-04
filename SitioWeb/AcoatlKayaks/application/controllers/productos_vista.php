@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Productos extends CI_Controller {
+class Productos_vista extends CI_Controller {
 
 function __construct(){
     parent:: __construct();
     $this->load->model('Productos_Mdl');
-}
+} 
  
     public function listar(){
         $data['productos'] = $this->Productos_Mdl->listar();

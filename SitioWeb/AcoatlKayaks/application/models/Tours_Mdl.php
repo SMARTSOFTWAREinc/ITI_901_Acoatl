@@ -5,14 +5,11 @@ class Tours_Mdl extends CI_Model
         parent::__construct();
     }
  
-  
-
     public function listar(){
         //get = "SELECT * FROM [tabla]
-        $t = $this->db->get('tours');
+        $t=$this->db->get('tours');
         return $t->result();
     }
 
-   
-    
-}
+      
+} 

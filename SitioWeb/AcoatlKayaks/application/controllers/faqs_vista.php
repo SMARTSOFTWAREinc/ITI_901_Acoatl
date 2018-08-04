@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Faqs extends CI_Controller {
+class Faqs_vista extends CI_Controller {
 
 function __construct(){
     parent:: __construct();

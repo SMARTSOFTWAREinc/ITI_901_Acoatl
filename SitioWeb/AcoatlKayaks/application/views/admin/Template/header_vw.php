@@ -40,19 +40,93 @@
                 </button>
                 <a class="navbar-brand" href="index.html">Acoatl Kayaks</a>
             </div>
-
             <ul class="nav navbar-top-links navbar-right">
                 
-                
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="<?=base_url();?>index.php/Control_admin/bd_usuarios">
+                                <div>
+                                    <p>
+                                        <strong>Generar reportes de usuarios</strong>
+                                        <span class="pull-right text-muted">100% Completado</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Completado (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="<?=base_url();?>index.php/Control_admin/bd_pedidos">
+                                <div>
+                                    <p>
+                                        <strong>Generar reportes de pedidos</strong>
+                                        <span class="pull-right text-muted">100% Completado</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Completado (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="<?=base_url();?>index.php/Control_admin/bd_inscripciones">
+                                <div>
+                                    <p>
+                                        <strong>Generar reportes de inscripciones</strong>
+                                        <span class="pull-right text-muted">100% Completado</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Completado (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="<?=base_url();?>index.php/Control_admin/bd_productos">
+                                <div>
+                                    <p>
+                                        <strong>Generar reportes de productos</strong>
+                                        <span class="pull-right text-muted">100% Completado</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Completado (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
                 
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
-                    <ul class="dropdown-menu dropdown-user">       
-                        <li></li>
-                        <li><a href="<?=base_url();?>index.php/Control_admin/salir"><i class="fa fa-sign-out fa-fw"></i> Cerrar sesión</a>
+                    <ul class="dropdown-menu dropdown-user">
+                    <li></li>
+                        <li><a href="<?=base_url();?>index.php/Usuario/user_logout"><i class="fa fa-sign-out fa-fw"></i> Cerrar sesión</a>
+                        </li>
+                        <li><a href="<?=base_url();?>index.php/Control/index"><i class="fa fa-eye"></i> Ver Sitio</a>
+                        </li>
+                        <li><a href="<?=base_url();?>index.php/Control_admin/cuenta"><i class="fa fa-user"></i> Mi Cuenta</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -60,6 +134,8 @@
                 <!-- /.dropdown -->
             </ul>
         </nav>
+
+            
         <!--/. NAV TOP  -->
         <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
@@ -103,6 +179,12 @@
 					</li>
 					<li>
                         <a href="<?=base_url();?>index.php/Control_admin/inscripciones"><i class="fa fa-fw fa-file"></i>Inscripciones</a>
+                    </li>
+                    <li>
+                        <a href="<?=base_url();?>index.php/Control_admin/promos"><i class="fa fa-fw fa-file"></i>Promociones</a>
+					</li>
+					<li>
+                        <a href="<?=base_url();?>index.php/Control_admin/datos"><i class="fa fa-fw fa-file"></i>Datos Interesantes</a>
                     </li>
                 </ul>
 

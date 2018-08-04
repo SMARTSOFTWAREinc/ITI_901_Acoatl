@@ -15,9 +15,9 @@
 		<div class="container">
 			<div class="social">
 				<ul>
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.facebook.com/acoatlkayaks/?ref=br_rs"><i class="fa fa-facebook"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.instagram.com/acoatlkayaks/?hl=es-la"><i class="fa fa-instagram"></i></a></li>
 				</ul>
 			</div>
 			<div class="border"></div>
@@ -26,7 +26,8 @@
 			</div>
 		</div>
 	</div>
-
+	<script type="text/javascript" src="<?=base_url();?>sweetalert2/dist/sweetalert2.min.js"></script>
+ 	<script type="text/javascript" src="<?=base_url();?>sweetalert2/jquery.js"></script>
 	<script src="<?=base_url();?>site/template/js/jquery-1.11.1.min.js"></script>
 	<script src="<?=base_url();?>site/template/js/bootstrap.js"></script>
 	<script src="<?=base_url();?>site/template/js/responsiveslides.min.js"></script>

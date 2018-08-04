@@ -53,3 +53,5 @@ $route['default_controller'] = 'control';
 $route['404_override'] = 'control/log';
 $route['translate_uri_dashes'] = FALSE;
 $route['admin'] = 'control/log';
+$route['catalogo/pagina/(:num)'] = 'catalogo';//cuando no sea la primera página
+$route['catalogo/pagina'] = 'catalogo';//cuando sea la primera página

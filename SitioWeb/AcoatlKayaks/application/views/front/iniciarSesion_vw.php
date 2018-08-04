@@ -16,10 +16,10 @@
 
 
 <div class="container" align="center">
-	<a><img src="<?=base_url();?>site/template/images/s.png"></a>  
+	<a href="<?=base_url();?>index.php/control"><img src="<?=base_url();?>site/template/images/s.png"></a>  
 	<div align="center" class="container">  
     	<div class="col-xs-12 col-sm-4"></div>
-
+ 
 			<div class="col-xs-12 col-sm-4 form form_regis" >
             	<form action="<?=base_url().'index.php/Usuario/login';?>" method="POST" class="login-form">
                 <h1 class="ini">Iniciar Sesión</h1>
@@ -31,10 +31,9 @@
           				</div>
           				<div class="input-group">
             				<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            				<input type="password" name="contraseña" class="form-control" placeholder="Contraseña" required>
+            				<input type="password" name="contrasena" class="form-control" placeholder="Contraseña" required>
           				</div>
-						  <input type="hidden" name="privilegios" class="form-control" value="1">
-         				 <button class="btn btn-success btn-lg btn-block" type="submit" value="">Iniciar Sesión</button>
+         				 <button class="btn btn-warning btn-lg btn-block" type="submit" value="">Iniciar Sesión</button>
           				<a type="button" class="btn btn-info btn-lg btn-block" href="<?=base_url();?>index.php/control/reg">Registrarme</a>
       				</div>
 			</form>   

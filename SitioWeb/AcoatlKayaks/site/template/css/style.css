@@ -14,9 +14,19 @@ body{
 	background:#FFFFFF;
 }
 .white{
-	background:#FFFFFF;
-}
+	background-color: white;
+    opacity: 0.9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 
+}
+.negro{
+	background:rgb(0, 0, 0);
+}
 /*Cargando*/
 
 .loader {
